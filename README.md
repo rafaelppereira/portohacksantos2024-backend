@@ -2,6 +2,9 @@
 
 Este projeto foi concebido com a missão de oferecer um sistema onde pega as informações da fonte de dados (API) da APS para lidar com isso em tempo real, inicialmente está com a tratativa de bater de tempos em tempos para manter sempre essa informação de forma atualizada.
 
+## Vídeo explicativo
+https://www.youtube.com/watch?v=e_bADCYhXwA
+
 ## Tabela de Conteúdos
 
 - [Pré-requisitos](#pré-requisitos)

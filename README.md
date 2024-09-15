@@ -1,73 +1,74 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Porto Hack Santos 2024
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto foi concebido com a missão de oferecer um sistema onde pega as informações da fonte de dados (API) da APS para lidar com isso em tempo real, inicialmente está com a tratativa de bater de tempos em tempos para manter sempre essa informação de forma atualizada.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Tabela de Conteúdos
 
-## Description
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Licença](#licença)
+- [Contato](#contato)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Pré-requisitos
 
-## Installation
+Antes de começar a trabalhar com este projeto, é importante garantir que você tenha os seguintes pré-requisitos instalados e configurados:
 
-```bash
-$ pnpm install
-```
+- **Node.js e npm**: O Node.js é um ambiente de tempo de execução JavaScript que permite executar aplicativos JavaScript fora do navegador. O npm é um gerenciador de pacotes para instalação de bibliotecas e dependências.
+  - **Instalação**: Baixe e instale o Node.js a partir do [site oficial](https://nodejs.org/), que inclui o npm.
+  - **Verificação da instalação**:
+    ```bash
+    node --version
+    npm --version
+    ```
 
-## Running the app
+- **Nest CLI**: O Nest CLI é uma ferramenta de linha de comando que facilita a criação, desenvolvimento e teste de aplicativos NestJS.
+  - **Instalação**:
+    ```bash
+    npm install -g @nestjs/cli
+    ```
+  - **Verificação da instalação**:
+    ```bash
+    nest --version
+    ```
 
-```bash
-# development
-$ pnpm run start
+- **Editor de Código**: Um editor de código ou ambiente de desenvolvimento integrado (IDE) para escrever e editar o código fonte do projeto. Alguns exemplos populares incluem Visual Studio Code, Sublime Text, Atom e WebStorm.
+  - **Instalação**: Baixe e instale seu editor de código preferido a partir do site oficial.
 
-# watch mode
-$ pnpm run start:dev
+- **Git (opcional)**: O Git é um sistema de controle de versão distribuído usado para rastrear as mudanças no código fonte durante o desenvolvimento de software.
+  - **Instalação**: Baixe e instale o Git a partir do [site oficial](https://git-scm.com/).
+  - **Verificação da instalação**:
+    ```bash
+    git --version
+    ```
 
-# production mode
-$ pnpm run start:prod
-```
+Após garantir que todos os pré-requisitos estão instalados e configurados corretamente, você estará pronto para começar a trabalhar com o projeto NestJS.
 
-## Test
+## Instalação
 
-```bash
-# unit tests
-$ pnpm run test
+Siga os passos abaixo para configurar e iniciar o projeto localmente em seu ambiente de desenvolvimento.
 
-# e2e tests
-$ pnpm run test:e2e
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/rafaelppereira/portohacksantos2024-backend.git
+   cd portohacksantos2024
+   ```
 
-# test coverage
-$ pnpm run test:cov
-```
+2. **Intale as dependências**
+  ```bash
+  npm install ou pnpm i
+  ```
 
-## Support
+3. **Executar projeto**
+  ```bash
+  npm start:dev ou pnpm start:dev
+  ```
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Licença
 
-## Stay in touch
+Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## Contato
 
-## License
+Se você tiver alguma dúvida, sugestão ou feedback, não hesite em entrar em contato conosco. Estamos aqui para ajudar!
 
-Nest is [MIT licensed](LICENSE).
+- **E-mail:** [atendimento@nitrohub.com.br](mailto:atendimento@nitrohub.com.br)

@@ -50,7 +50,7 @@ Siga os passos abaixo para configurar e iniciar o projeto localmente em seu ambi
 1. **Clone o Repositório:**
    ```bash
    git clone https://github.com/rafaelppereira/portohacksantos2024-backend.git
-   cd portohacksantos2024
+   cd portohacksantos2024-backend
    ```
 
 2. **Intale as dependências**
